@@ -4,12 +4,9 @@ const fullBtn = document.getElementById('full')
 const dateBtn = document.getElementById('date')
 const timeBtn = document.getElementById('time')
 
-
 update()
 
-
-setInterval(update, 1000) //т.к функция update не принимает параметров можно упростить запись
-
+setInterval(update, 1000) //т.к функция update не принимает параметров можно упростить запись (change comment)
 
 function update () {
 	output.textContent = format(mode)
@@ -29,14 +26,12 @@ function format(formatMode) {
 	}
 }
 
-
 function bindMode(name) {
 	return function () {
 		mode = name
 		update()
 	}
 }
-
 
 fullBtn.onclick = bindMode('full')
 dateBtn.onclick = bindMode('date')
