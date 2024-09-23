@@ -8,7 +8,7 @@ const timeBtn = document.getElementById('time')
 update()
 
 
-setInterval(update, 1000) //т.к функция update не принимает параметров можно упростить запись
+setInterval(update, 1000) //С‚.Рє С„СѓРЅРєС†РёСЏ update РЅРµ РїСЂРёРЅРёРјР°РµС‚ РїР°СЂР°РјРµС‚СЂРѕРІ РјРѕР¶РЅРѕ СѓРїСЂРѕСЃС‚РёС‚СЊ Р·Р°РїРёСЃСЊ
 
 
 function update () {
